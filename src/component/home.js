@@ -18,9 +18,10 @@ class Home extends Component {
   render() {
     return (
       <div>
-        {this.props.app.reduxdata}<br />
-        {this.state.data}<br />
-        {this.props.app.apidata}
+        <div>{this.props.app.reduxdata}</div><br />
+        <div>{this.state.data}</div><br />
+        <div>{this.props.app.apidata}</div>
+        <input type="text" />
       </div>
     );
   }
